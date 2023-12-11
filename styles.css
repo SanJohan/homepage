@@ -267,3 +267,18 @@
   .additional-info__languages-item {
     color: var(--secondary-text-color);
   }
+
+  /* Name and Role styles */
+.name-role__name {
+    color: var(--primary-text-color);
+    text-align: center;
+    text-decoration-color: var(--text-decoration-color);
+    text-decoration-line: underline;
+    margin-bottom: 10px;
+  }
+  
+  .name-role__role {
+    color: var(--secondary-text-color);
+    text-align: center;
+    margin-bottom: 30px;
+  }
