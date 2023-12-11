@@ -282,3 +282,16 @@
     text-align: center;
     margin-bottom: 30px;
   }
+
+    /* Personal Info styles */
+.personal-info__header {
+    color: var(--secondary-text-color);
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .personal-info__text {
+    color: var(--secondary-text-color);
+    text-align: justify;
+  }
+  
