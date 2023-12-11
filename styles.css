@@ -294,4 +294,73 @@
     color: var(--secondary-text-color);
     text-align: justify;
   }
+
   
+  
+/* Social Media styles */
+.social-media__header {
+    color: var(--secondary-text-color);
+    text-align: left;
+    margin-bottom: 20px;
+  }
+  
+  .social-media__list {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .social-media__list a {
+    color: var(--secondary-text-color);
+    text-decoration: none;
+    display: flex;
+    margin-bottom: 5px;
+  }
+  
+  .social-media__list a:hover {
+    color: var(--text-decoration-color);
+    text-decoration: underline;
+  }
+  
+  /* University Projects styles */
+  .university-projects__header {
+    color: var(--secondary-text-color);
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .university-projects__list {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .university-project {
+    margin-bottom: 15px;
+  }
+  
+  .university-project__name {
+    color: var(--primary-text-color);
+    margin-bottom: 5px;
+  }
+  
+  .university-project__description {
+    color: var(--secondary-text-color);
+  }
+  
+  /* Hobbies*/
+  .resume__block-hobbies {
+    
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 15px;
+  }
+  
+  .hobbies__header {
+    color: var(--secondary-text-color);
+    text-align: left;
+    margin-bottom: 20px;
+  }
+  
+  .hobbies__list {
+    color: var(--secondary-text-color);
+  }
